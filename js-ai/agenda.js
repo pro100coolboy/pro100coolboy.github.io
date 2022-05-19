@@ -4,12 +4,12 @@ export class Agenda extends Array
     {
         this.push(node)
     }
-
+ 
     getNode()
     {
         return this.shift()
     }
-
+ 
     notEmpty()
     {
         return this.length !== 0
