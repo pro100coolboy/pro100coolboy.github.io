@@ -1,17 +1,17 @@
-export default class Agenda extends Array
+module.exports = class Agenda extends Array
 {
-    add(node)
-    {
-        this.push(node)
-    }
+add(node)
+{
+this.push(node)
+}
 
-    getNode()
-    {
-        return this.pop()
-    }
+getNode()
+{
+return this.pop()
+}
 
-    notEmpty()
-    {
-        return this.length !== 0
-    }
+notEmpty()
+{
+return this.length !== 0
+}
 }

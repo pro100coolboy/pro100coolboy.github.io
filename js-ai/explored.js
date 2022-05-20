@@ -1,11 +1,12 @@
-export class Explored extends Object
+module.exports = class Explored extends Object
 {
-    add(state)
-    {
-        this[state.toString()] = true
-    }
-    hasState(state)
-    {
-        return Boolean(this[state.toString()])
-    }
+add(state)
+{
+this[state.toString()] = true
+}
+
+hasState(state)
+{
+return Boolean(this[state.toString()])
+}
 }
